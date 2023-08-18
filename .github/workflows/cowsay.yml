@@ -9,6 +9,6 @@ jobs:
         with:
           node-version: '14'
       - name: Installing Cowsay
-      - run: npm install -g cowsay
+        run: npm install -g cowsay
       - name: Executing Cowsay
-      - run: cowsay Hello Platzi
+        run: cowsay Hello Platzi
